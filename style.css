@@ -1,0 +1,24 @@
+.ss{
+    display: flex;
+    gap: 250px;/*add space between images*/
+}
+
+.tt{
+    text-align: center;
+    width: 1650px;
+    height: 100px;
+    background-color: red;
+}
+.FF{
+    color: white;
+}
+.ee{
+    background-color: lightblue;
+    text-align: center;
+
+}
+.qq{
+  border-style: solid;
+  border-color: blue;
+  width: 100000px;
+}
