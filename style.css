@@ -1,14 +1,20 @@
 .ss{
     display: flex;
-    gap: 250px;/*add space between images*/
+    gap: 150px;/*add space between images*/
 }
 
 .tt{
     text-align: center;
-    width: 1650px;
+    width: 1000px;
     height: 100px;
     background-color: red;
-}
+  margin-left: 252px;
+        display: block /*or flex layout as above*/
+        vertical-align: top;  /*helps inline-block alignment*/
+        position: relative;
+        top: 100px; /*attached directly below.one*/
+        padding: ;    
+} 
 .FF{
     color: white;
 }
@@ -18,7 +24,17 @@
 
 }
 .qq{
-  border-style: solid;
-  border-color: blue;
-  width: 100000px;
-}
+    border: solid;
+    border: dashed blue;
+    border: 1rem solid;
+    border: fat single blue;
+    border:4mm ridge blue (211 220 50/0.6) ;
+    border-top: none;
+    border-color: blue;
+    width: 1500px;
+    margin: 10px;
+    }
+    .vv{
+        border-color: lightblue;
+    }
+    
